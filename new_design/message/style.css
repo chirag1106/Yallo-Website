@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(Helvetica.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212112;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: all 200ms linear;
+}
+
+.nav-link:hover {
+  color: #131312 !important;
+}
+
+.navbar form .search:active {
+  color: #ddbc00 !important;
+}
+
+.main-content .box {
+  border-radius: 5px;
+}
+
+.main-row {
+  padding: 0 100px;
+}
+
+.fa-ellipsis-h {
+  padding: 5px;
+  border-radius: 50%;
+}
+.fa-ellipsis-h:hover {
+  background-color: rgba(122, 128, 139, 0.127);
+}
+
+#images img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 80px;
+  object-fit: cover;
+}
+
+::placeholder {
+  color: rgb(124, 119, 119) !important;
+}
+
+.img {
+  margin: auto !important;
+  padding: 3px 0px;
+}
+
+#content::placeholder {
+  color: rgb(205, 202, 202) !important;
+}
+
+.col-md-3-custom {
+    flex: 0 0 30%;
+  max-width: 30% !important;
+}
+
+.custom-6 {
+  max-width: 750px !important;
+}
+
+.col-md-3-customb {
+flex: 0 0 20%;
+  max-width: 20% !important;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    /* margin: 10px; */
+    
+}
+::-webkit-scrollbar-track {
+  background: #fff; 
+  margin: 10px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(233, 227, 227); 
+  border-radius: 5px;
+  
+}
+ 
+.send-btn:hover{
+  border: 0;
+  outline: 0;
+  color:#ffffff !important;
+}
+
+.fa-ellipsis-h:hover , .fa-ellipsis-h:focus{
+  border: 1px solid rgb(112,202,230);
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: rgb(112,202,230) !important;
+  background-color: #fff !important;
+}
+
+.chat-btn:hover{
+  background-color: rgb(232,247,251) !important;
+}
+
+
+
+/* min width */
+
+@media (min-width: 567px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+
+/* max width */
+
+@media (max-width: 420px) {
+}
+
+@media (max-width: 300px) {
+}
