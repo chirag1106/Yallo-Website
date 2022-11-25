@@ -1,0 +1,257 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(Helvetica.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212112;
+}
+
+.nav-link {
+  font-weight: 500;
+  transition: all 200ms linear;
+}
+
+.nav-link:hover {
+  color: #131312 !important;
+}
+
+.navbar form .search:active {
+  color: #ddbc00 !important;
+}
+
+
+
+/* .main-content .box {
+  border-radius: 5px;
+} */
+
+/* .main-row {
+  padding: 0 30px;
+} */
+
+.fa-ellipsis-h {
+  padding: 5px;
+  border-radius: 50%;
+}
+.fa-ellipsis-h:hover {
+  background-color: rgba(122, 128, 139, 0.127);
+}
+
+#images img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 80px;
+  object-fit: cover;
+}
+
+::placeholder {
+  color: rgb(124, 119, 119) !important;
+}
+
+.img {
+  margin: auto !important;
+  padding: 3px 0px;
+}
+
+#content::placeholder {
+  color: rgb(205, 202, 202) !important;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    /* margin: 10px; */
+    
+}
+::-webkit-scrollbar-track {
+  background: #fff; 
+  margin: 10px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(233, 227, 227); 
+  border-radius: 5px;
+  
+}
+ 
+.send-btn:hover{
+  border: 0;
+  outline: 0;
+  color:#ffffff !important;
+}
+
+.fa-ellipsis-h:hover , .fa-ellipsis-h:focus{
+  border: 1px solid rgb(112,202,230);
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: rgb(112,202,230) !important;
+  background-color: #fff !important;
+}
+
+.chat-btn:hover{
+  background-color: rgb(232,247,251) !important;
+}
+
+.post-list li:hover{
+  color: rgb(112,202,230) !important;
+}
+
+.br-5{
+  border-radius: 7px !important;
+  border: 1px solid black !important;
+}
+.b-5{
+  border-radius: 7px !important;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+textarea{
+  resize: none !important;
+}
+
+.title-text{
+  min-height: 100px;
+  /* max-height: 100px; */
+}
+.add-text{
+  /* border: 1px solid black !important; */
+  text-align: left !important;
+  min-height: 300px;
+  /* max-height: 300px; */
+  /* overflow-y: scroll; */
+}
+
+.selectdiv select::-ms-expand { display: none; }
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 1px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  /* margin-right: 2rem; */
+  /* padding: 1rem; */
+  padding-right: 2rem;
+}
+
+.border-blue{
+  border: 1px solid rgb(84,184,221) !important;
+}
+.color-blue{
+  background-color: rgb(84,184,221) !important;
+  color: white !important;
+}
+
+.text-blue{
+  color: rgb(84,184,221) !important;
+}
+
+.bottom-border-dark{
+  border-bottom: 1px solid black !important;
+}
+
+.style-box{
+  /* min-height: 800px !important; */
+}
+
+.color{
+  color: #726f6f !important;
+  font-size: 15px !important;
+  /* text-align: justify; */
+}
+
+.border-custom{
+  border-top: 1px solid black ;
+  border-bottom: 1px solid black;
+}
+
+.border-custom-down{
+  border-bottom: 1px solid black;
+}
+
+.fs-10{
+  font-size: 7px !important;
+}
+
+.hide-file{
+  visibility: hidden !important;
+}
+.show-file{
+  display: block !important;
+}
+
+.img{
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.item{
+  max-block-size: fit-content !important;
+    max-height: 320px !important;
+}
+
+.fixed-bottom-custom{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.media-adjust{
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin: 1.487rem;
+}
+/* .media-adjust:nth-child(1){
+  margin: 1.5rem 1.5rem 1.5rem 0 ;
+} */
+/* min width */
+
+@media (min-width: 567px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+
+/* max width */
+
+@media (max-width: 420px) {
+}
+
+@media (max-width: 300px) {
+}
